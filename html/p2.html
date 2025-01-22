@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ARP Group</title>
+    <script src="../js/p2.js"></script> <!-- Link to your JavaScript file -->
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Main</a></li>
+            <li><a href="p1.html">System Group</a></li>
+            <li><a href="p2.html" class="nav-clicked">ARP Table</a></li>
+            <li><a href="p3.html">TCP Table</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="footer">
+        <div class="nextprev">
+            <button onclick="window.location.href = 'p1.html'">
+                Previous
+            </button>
+        </div>
+        <h1>ARP Table</h1>
+        <div class="nextprev" style="align-items: center">
+            <button onclick="window.location.href = 'p3.html'">Next</button>
+        </div>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Index</th>
+                <th>MAC</th>
+                <th>IP</th>
+                <th>Type</th>
+            </tr>
+            </thead>
+            <tbody id="systemGroupTable"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
